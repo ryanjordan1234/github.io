@@ -1,0 +1,91 @@
+
+html {background-color: orange;}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: orange;
+}
+
+.jumbotron-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+    background-color: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: 0 2px 2px 2px black;
+}
+.jumbotron-text {
+    font-size: 4em ;
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 4px 4px 4px black;
+}
+
+.product-card {
+    margin-bottom: 20px;
+    padding: 20px;
+    margin: 10px; 
+}
+    
+footer {
+    background-color: #333;
+    text-align: center;
+    color: white;
+}
+
+.gallery-text {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    text-align: center;
+    background-color: orange;
+    
+}
+.gallery-img {
+    display: flex;
+    justify-content: end;
+    justify-content: row;
+}
+
+.Contact{
+    background-color: orange;
+    padding: 0;
+    margin: 0;
+}
+.home {
+    text-align: center;
+}
+
+h3 {
+    justify-content: center;
+    text-align: center;
+}
